@@ -1,6 +1,6 @@
 <?php
 
-if ($_POST['info'] === 'php') {
+if ($_GET['info'] === 'php') {
   phpinfo();
   exit();
 }
